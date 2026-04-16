@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <style>
+       .box{
+  width:100px;
+  height:100px;
+  background:white;
+  position: relative;
+}
+
+.box::after{
+  content:"";
+  position:absolute;
+  bottom:-20px;
+  left:0;
+  width:100%;
+  height:40px;
+  background:#6C757D; 
+  border-radius:50%;
+}
+    </style>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+ 
+</head>
+<body>
+    
+      <div class="container bg-secondary p-5">
+        <div class="row mx-auto my-3">
+            <div class="d-sm-none d-md-block col-2 ">
+
+  <div class="box">
+     
+  </div>
+
+            </div>
+   
+        </div>
+        <div class="row row-gap-2">
+            <!--Navigation of Images in vertical way-->
+            <div class="col-lg-2 col-12  row flex-lg-column row-lg-gap-3">
+           
+       <div class="col-lg-12 col-md-3 col-12">
+          <div class="ratio ratio-1x1">
+              <img src="images/1.jpg" class="rounded-circle w-100 h-100 object-fit-cover">
+          </div>
+      
+      </div>
+
+       <div class="col-lg-12 col-md-3 col-4">
+          <div class="ratio ratio-1x1">
+              <img src="images/2.jpg" class="rounded-circle w-100 h-100 object-fit-cover">
+          </div>
+      
+      </div>
+
+       <div class="col-lg-12 col-md-3 col-4">
+          <div class="ratio ratio-1x1">
+              <img src="images/3.jpg" class="rounded-circle w-100 h-100 object-fit-cover">
+          </div>
+      
+      </div>
+       <div class="col-lg-12 col-md-3 col-4">
+          <div class="ratio ratio-1x1">
+              <img src="images/4.jpg" class="rounded-circle w-100 h-100 object-fit-cover">
+          </div>
+      
+      </div>
+            </div>
+          
+            <div class="col-lg-10">
+
+                 <!-- Section 1 -->
+                      <div class="col-12">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit vero officiis quas necessitatibus quo commodi, maxime voluptas consectetur voluptatem voluptatum nisi ex dolorem, saepe ad hic cumque. Tempore, facere molestiae id saepe quas aliquam tenetur a. Recusandae repellendus nulla rem aperiam asperiores nobis iste soluta et nam quis expedita fuga, incidunt vero ex tempore voluptatem pariatur ad dolores. Molestiae, placeat libero. Debitis minima consectetur repellat eligendi eius ea tempora officia perspiciatis, dolor, illum obcaecati. Id praesentium illum repudiandae dolor possimus!</p>
+                      </div>
+
+                      <!-- Section 2 -->
+         <div class="row row-gap-3">
+             <div class="col-md-4 col-12"> 
+        <div class="ratio ratio-1x1">
+            <img src="images/seafood-1.jpg" class="w-100 h-100 object-fit-cover">
+          </div>
+          
+        </div>
+             <div class="col-md-4 col-12"> 
+        <div class="ratio ratio-1x1">
+            <img src="images/seafood-1.jpg" class="w-100 h-100 object-fit-cover">
+          </div>
+          
+        </div>
+         <div class="col-md-4 col-12"> 
+        <div class="ratio ratio-1x1">
+            <img src="images/seafood-1.jpg" class="w-100 h-100 object-fit-cover">
+          </div>
+          
+      
+                          </div>
+         </div>
+
+
+                     <!-- Section 3 -->
+         <div class="row  my-3">
+             <div class="col-md-4 col-12 text-center"> 
+        <div class="ratio ratio-1x1 mx-auto" style="width:60px;">
+            <img src="images/seafood-1.jpg" class=" rounded-circle  w-100 h-100 object-fit-cover">
+          </div>
+          <p>lorem</p>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum reprehenderit quo officia ipsum odit, nulla porro, earum iste ullam minima adipisci necessitatibus, nam enim commodi officiis molestiae quia perspiciatis architecto voluptatibus soluta libero facere maxime cumque. Odio doloremque, quia esse repellat nemo qui impedit suscipit itaque, placeat porro, quo ratione.</p>
+        </div>
+             <div class="col-md-4 col-12 text-center"> 
+        <div class="ratio ratio-1x1 mx-auto" style="width:60px;">
+            <img src="images/seafood-1.jpg" class=" rounded-circle w-100 h-100 object-fit-cover">
+          </div>
+          <p>lorem</p>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum reprehenderit quo officia ipsum odit, nulla porro, earum iste ullam minima adipisci necessitatibus, nam enim commodi officiis molestiae quia perspiciatis architecto voluptatibus soluta libero facere maxime cumque. Odio doloremque, quia esse repellat nemo qui impedit suscipit itaque, placeat porro, quo ratione.</p>
+        </div>
+        <div class="col-md-4 col-12 text-center"> 
+        <div class="ratio ratio-1x1 mx-auto" style="width:60px;">
+            <img src="images/seafood-1.jpg" class=" rounded-circle w-100 h-100 object-fit-cover">
+          </div>
+          <p>lorem</p>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum reprehenderit quo officia ipsum odit, nulla porro, earum iste ullam minima adipisci necessitatibus, nam enim commodi officiis molestiae quia perspiciatis architecto voluptatibus soluta libero facere maxime cumque. Odio doloremque, quia esse repellat nemo qui impedit suscipit itaque, placeat porro, quo ratione.</p>
+        </div>
+         </div>
+                                <!--Line with triangle-->
+                   <div class="w-100 bg-secondary-subtle d-flex justify-content-center align-items-end mt-5" style="height:2px;">
+                            <div class="bg-secondary-subtle" style="width:25px;height:25px;clip-path: polygon(50% 0%, 0% 100%, 100% 100%);"></div>
+                       </div>
+
+      <div class="row row-gap-3">
+        <div class="col-md-2 col-12 ">
+            <p class="fs-2 fst-italic">Lorem</p>
+        </div>
+        <div class="col-md-10 col-12 mt-2">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus commodi sed minus! Cum suscipit beatae laboriosam. Porro, libero? Alias in unde repudiandae maxime qui harum libero tempora maiores quam illum laudantium impedit, saepe reiciendis accusamus voluptatum iste odit tempore aperiam fugiat enim tenetur quod natus, placeat eos! Facere non accusamus architecto, provident sed ab possimus quibusdam, voluptatum voluptates pariatur laudantium.</p>
+        </div>
+
+        <div class="col-md-6 d-md-block d-none">
+            <div class="ratio ratio-4x3">
+                           <video src="images/frozen.mp4" controls poster="images/rigel-food-sec-2-img1-200x200.jpg" class="w-100 h-100 object-fit-cover"></video>
+            </div>
+                
+        </div>
+
+        <div class="col-md-6 col-12">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatem sed quidem totam in? Quibusdam voluptatum molestias, eum doloribus velit ut pariatur iste odio tenetur eligendi est eveniet, fugit ipsum itaque distinctio, tempora totam vitae beatae voluptas ullam eaque ipsam harum. Obcaecati modi blanditiis, corporis alias omnis minus laudantium nobis fugiat autem neque hic animi nemo! Optio, asperiores tempora? Perferendis et sapiente distinctio ea voluptate! Nobis vero, ratione soluta vitae error possimus veniam illo iure, perspiciatis eligendi magnam placeat ex voluptatem nesciunt atque nihil accusantium quod a, sunt consequatur harum. Asperiores placeat laudantium rem similique rerum eligendi commodi. Perferendis quos ipsam, nam quidem, cumque mollitia possimus, temporibus illum doloremque non beatae. Vero sapiente dolorum delectus quo dolorem aliquid ratione pariatur sunt sequi iusto. Possimus commodi modi quia quae hic id a facilis. Libero harum fugit molestias nisi. Vero eius fuga reprehenderit cumque, expedita quia quasi exercitationem nihil possimus corrupti non?</p>
+        </div>
+
+                        <!-- Section 2 -->
+
+             <div class="col-md-4 col-12"> 
+        <div class="ratio ratio-1x1">
+            <img src="images/seafood-1.jpg" class="w-100 h-100 object-fit-cover">
+          </div>
+          
+        </div>
+             <div class="col-md-4 col-12"> 
+        <div class="ratio ratio-1x1">
+            <img src="images/seafood-1.jpg" class="w-100 h-100 object-fit-cover">
+          </div>
+          
+        </div>
+         <div class="col-md-4 col-12"> 
+        <div class="ratio ratio-1x1">
+            <img src="images/seafood-1.jpg" class="w-100 h-100 object-fit-cover">
+          </div>
+          
+
+         </div>
+      </div>
+
+
+
+             
+         </div>
+       
+           
+      
+        </div>
+      </div>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
